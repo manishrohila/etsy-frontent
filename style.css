@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEFAE7;
+}
+
+nav ul {
+    display: flex;
+    margin: 20px 50px;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+.logo_name {
+    margin-right: 200px;
+    font-size: 1.4rem;
+}
+
+button {
+    background-color: #FEFAE7;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.login {
+    padding: 6px 10px;
+    margin-top: -4px;
+    border-color: #F95700;
+}
+
+.started {
+    margin-top: -4px;
+    padding: 8px 8px;
+    border: none;
+}
+
+nav ul li:nth-child(5) {
+    margin-right: 70px;
+}
+
+.started {
+    background-color: #F95700;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-title {
+    background-color: #F95700;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 1px 15px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.second-h4 {
+    margin-left: 20px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.t-title h2 span.highlighted {
+    color: #F95700;
+}
+.t-title h2:nth-child(1) {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 33px;
+  }
+.t-title h2:nth-child(2) {
+    margin-left: -10px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-size: 33px;
+  }
+  .t-title h2:nth-child(3) {
+    margin-left: -20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 33px;
+  }
+
+  .fourth{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .video-list{
+    list-style: none;
+  }
+  .video-player{
+    margin-left: 15px;
+}
+.video-frome{
+    display: block;
+}
+  .video-player p{
+    text-align: center;
+    background-color: #F95700;
+  }
+  .video-list li{
+    margin-bottom: 25px;
+  }
+  
+  .fifth{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+  }
+  .fi-title p:nth-child(2){
+        margin-left: 20px;
+
+  }
+  .sixth{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .si-title{
+    background-color: #F95700;
+    margin: 5px;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+.icon {
+    font-size: 60px;
+}
+
+.bottom{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 1px;
+}
+.bottom p{
+
+    margin: 0 5px;
+}
+.fa-regular .fa-clipboard{
+    background-color: #F95700;
+}
+  
