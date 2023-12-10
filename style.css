@@ -33,6 +33,9 @@ button {
 }
 
 .login {
+    position: absolute;
+    top: 15px;
+    right: 300px;
     padding: 6px 10px;
     margin-top: -4px;
     border-color: #F95700;
@@ -40,6 +43,9 @@ button {
 }
 
 .started {
+    position: absolute;
+    top: 15px;
+    right: 150px;
     margin-top: -4px;
     padding: 8px 8px;
     border: none;
