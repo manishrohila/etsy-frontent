@@ -332,3 +332,15 @@ nav ul li:nth-child(5) {
 .fa-arrow-right{
     font-size: 20px;
 }
+.third-page{
+    background: #FFFFFF;
+}
+hr {
+    border: none;
+    border-top: 1px dotted #F95700;
+    width: 78%;
+    position: absolute;
+    left: 155px;
+  }
+
+  
