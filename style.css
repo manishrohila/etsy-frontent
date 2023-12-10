@@ -319,3 +319,10 @@ nav ul li:nth-child(5) {
     font-size: 19px;
     margin-bottom: 30px;
 }
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.fa-arrow-right{
+    font-size: 20px;
+}
