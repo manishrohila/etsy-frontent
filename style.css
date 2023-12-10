@@ -36,6 +36,7 @@ button {
     padding: 6px 10px;
     margin-top: -4px;
     border-color: #F95700;
+    margin-left: 215px;
 }
 
 .started {
@@ -107,6 +108,21 @@ nav ul li:nth-child(5) {
     word-spacing: 5px;
     letter-spacing: 1px;
     font-size: 33px;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: solid 3px red;
+    left: 0;
+    bottom: -10px;
+    border-radius: 50%;
+    height: 8px;
 }
 
 .fourth {
@@ -186,4 +202,120 @@ nav ul li:nth-child(5) {
 
 .fa-regular .fa-clipboard {
     background-color: #F95700;
+}
+
+#winningFormula {
+    color: #F95700;
+}
+
+.third-first {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.third-first h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.third-second {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 80px;
+    border: 1px solid #F95700;
+    background-color: #FEFAE7;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.1s rgb(255, 176, 30);
+    display: flex;
+    flex-direction: column;
+}
+
+.third-third {
+    display: flex;
+    justify-content: center;
+}
+
+.floating-box {
+    margin-top: 60px;
+}
+
+.top2 {
+    margin-left: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.top1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    /* Set image as inline-block */
+    margin-right: 10px;
+
+    padding-right: 10px
+}
+
+.class1 {
+    margin-left: 70px;
+}
+.class1 p{
+    font-size: 19px;
+}
+
+.second-ul {
+    list-style: none;
+}
+
+.second-ul li {
+    margin: 10px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.second-third{
+    margin: 20px;
+}
+.second-third-ul{
+    margin-left: 19px;
+    font-size: 19px;
+}
+.second-third-ul li::marker {
+    content: '\2022';
+    color: #F95700;
+    font-size: 30px;
+    
+}
+.second-fourth{
+    margin: 20px;
+}
+.second-fourth p{
+    font-size: 19px;
+}
+
+.class2{
+    margin-top: 50px;
+    margin-left: 55%;
+    margin-bottom: 20px;
+}
+.class2 p{
+    font-size: 19px;
+    margin-bottom: 30px;
 }
